@@ -6,6 +6,6 @@ lssecret: lssecret.cpp
 	$(CXX) -O3 -o $@ $^ $(LIBSECRET_FLAGS)
 
 install: lssecret
-	install -Dsm777 $< $(DESTDIR)/bin/$<
+	install -Dsm755 $< $(DESTDIR)/bin/$<
 
 .PHONY: all install
