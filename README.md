@@ -6,8 +6,8 @@ be used to list all the passwords and keys stored in a GNOME Keyring.
 
 Dependencies:
 
-* libsecret
-* pkg-config
+* libsecret (for Ubuntu: `sudo apt install libsecret-1-dev`)
+* pkg-config (for Ubuntu: `sudo apt install pkg-config`)
 
 To build, run `make`. To install run `DESTDIR=/usr make install`.
 
