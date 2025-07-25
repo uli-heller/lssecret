@@ -1,0 +1,7 @@
+Maintainer: Uli Heller <uli.heller@daemons-point.com>
+Section: misc
+Priority: optional
+Package: dptools-lssecret
+Version: 0.1
+Architecture: amd64
+Description: Repackaged lssecret
